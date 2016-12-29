@@ -1650,7 +1650,7 @@
 
 	a {
 		text-decoration: underline;
-		color: #f32853;
+		color: #1ABC9C;
 	}
 
 		a:hover {
@@ -1942,7 +1942,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #1ABC9C;
 			color: #ffffff !important;
 		}
 
@@ -2117,8 +2117,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #f32853;
-			box-shadow: 0 0 0 1px #f32853;
+			border-color: #1ABC9C;
+			box-shadow: 0 0 0 1px #1ABC9C;
 		}
 
 	.select-wrapper {
@@ -2229,8 +2229,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f32853;
-			box-shadow: 0 0 0 1px #f32853;
+			border-color: #1ABC9C;
+			box-shadow: 0 0 0 1px #1ABC9C;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2839,13 +2839,14 @@
 						-webkit-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #666;
+						color: #1ABC9C;
 						display: inline-block;
 						text-decoration: none;
+						font-weight: bold;
 					}
 
 						#header nav ul li a:hover {
-							color: #484848;
+							color: #F32853;
 						}
 
 					#header nav ul li:first-child {
@@ -2905,7 +2906,7 @@
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
-						color: #FFF;
+						color: #1ABC9C;
 					}
 
 			#header.alt .button {
@@ -3007,10 +3008,15 @@
 				#navPanel ul li a:not(.button),
 				#navPanel ul li span:not(.button) {
 					border-top: solid 1px #555;
-					color: #fff;
+					color: #FFF;
 					display: block;
 					padding: 0.75em 0;
 					text-decoration: none;
+					font-weight: bold;
+				}
+				
+				#navPanel ul li a:hover {
+					color:#1ABC9C;
 				}
 
 		#navPanel .button {
@@ -3197,7 +3203,7 @@
 		}
 
 			#footer a:active, #footer a:hover {
-				color: #666;
+				color: #F32853;
 			}
 
 		#footer .icons {
